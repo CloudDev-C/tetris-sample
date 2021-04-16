@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="sources\CConsoleParameters">
+      <UniqueIdentifier>{b166f8a3-9ae0-45a7-a39f-10d5905dd0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Matrix">
+      <UniqueIdentifier>{1551c129-2bc6-4ff9-bbd3-5a77ce9e0091}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseApp.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetris.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CConsoleParam.cpp">
+      <Filter>sources\CConsoleParameters</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>sources\Matrix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseApp.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceCounter.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="CConsoleParam.h">
+      <Filter>sources\CConsoleParameters</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>sources\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetris.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
